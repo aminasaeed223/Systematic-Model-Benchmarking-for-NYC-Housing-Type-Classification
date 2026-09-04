@@ -170,7 +170,10 @@ st.markdown(
         color: #F2F2F0 !important;
     }}
     [data-testid="stVerticalBlockBorderWrapper"] h3,
-    [data-testid="stVerticalBlockBorderWrapper"] h4 {{
+    [data-testid="stVerticalBlockBorderWrapper"] h4,
+    [data-testid="stVerticalBlockBorderWrapper"] h3 *,
+    [data-testid="stVerticalBlockBorderWrapper"] h4 *,
+    [data-testid="stVerticalBlockBorderWrapper"] [data-testid="stMarkdownContainer"] h4 {{
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
         color: {ORANGE} !important;
